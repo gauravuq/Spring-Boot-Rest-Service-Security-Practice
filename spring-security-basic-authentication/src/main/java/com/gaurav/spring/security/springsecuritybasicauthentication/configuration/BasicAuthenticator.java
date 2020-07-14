@@ -19,7 +19,7 @@ public class BasicAuthenticator extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
 
-        http.authorizeRequests()
+        http.authorizeRequests().antMatchers("/helloV2/**").permitAll()
                 .anyRequest().authenticated()
                 .and().httpBasic();
 
@@ -46,9 +46,6 @@ public class BasicAuthenticator extends WebSecurityConfigurerAdapter {
         auth.jdbcAuthentication()
                 .dataSource(dataSource).passwordEncoder(getPasswordEncoder());
     }
-
-
-
 
 
 }
