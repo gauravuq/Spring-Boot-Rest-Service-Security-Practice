@@ -1,4 +1,4 @@
-package com.gaurav.spring.security.springsecuritybasicauthentication.controllers;
+package com.gaurav.spring.security.springsecuritydigestauthentication.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
