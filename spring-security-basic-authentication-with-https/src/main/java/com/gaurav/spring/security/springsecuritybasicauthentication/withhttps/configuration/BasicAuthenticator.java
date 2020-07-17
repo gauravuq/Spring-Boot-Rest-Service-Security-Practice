@@ -1,4 +1,4 @@
-package com.gaurav.spring.security.springsecuritybasicauthentication.configuration;
+package com.gaurav.spring.security.springsecuritybasicauthentication.withhttps.configuration;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

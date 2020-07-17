@@ -1,4 +1,4 @@
-## Basic Authentication Demo 
+## Digest Authentication Demo [Coming Soon !!]
 * **This demo represents how to set up digest authentication for multiple RestMappings 
  using database based authentication provider**
 * **H2 database has been used for quick demonstrations**
