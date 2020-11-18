@@ -1,10 +1,10 @@
-package com.gaurav.spring.security.springsecuritydigestauthentication;
+package com.gauravappsdeveloper.ws.api.ResoruceServer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringSecurityDigestAuthenticationApplicationTests {
+class ResoruceServerApplicationTests {
 
 	@Test
 	void contextLoads() {
