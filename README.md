@@ -4,6 +4,6 @@
 
 ### 1) Basic Authentication with DBAuthentication
 ### 2) Basic Authentication with DBAuthentication with HTTPS enabled using server side keystore;
-### 3) ResoruceServer: OAuth 2.0 JWT based Springboot REST service authentication using Keycloak authentication server.
-* Role Based authentication using custom Roles enabled from Keycloak authorisation server.
-* Scope Based authentication using cutom Scopes from Keycloak authorisation server.
+### 3) ResoruceServer: OAuth 2.0 JWT based Springboot REST service authentication using Keycloak identity and access management server.
+* Role Based authentication using custom Roles enabled from Keycloak .
+* Scope Based authentication using cutom Scopes from Keycloak.
