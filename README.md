@@ -5,3 +5,6 @@
 ### 1) Basic Authentication with DBAuthentication
 ### 2) Digest Authentication with DBAuthentication
 ### 3) Basic Authentication with DBAuthentication with HTTPS enabled using server side keystore;
+### 4) OAuth 2.0 JWT based Springboot REST service authentication using Keycloak authentication server.
+* Role Based authentication using custom Roles enabled from Keycloak authorisation server.
+* Scope Based authentication using cutom Scopes from Keycloak authorisation server.
