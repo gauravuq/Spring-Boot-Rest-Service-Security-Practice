@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          # issuer-uri: http://localhost:8080/auth/realms/gauravAppsDeveloper
+          # the above url is used to validate the access token (with keycloak/OpenID compatible sever) which this service receives from client.
+          jwk-set-uri: http://localhost:8080/auth/realms/gauravAppsDeveloper/protocol/openid-connect/certs
+          # the above url is used to validate the access token (with any OAuth authorisation server); information in the above url is used to validate the token.
