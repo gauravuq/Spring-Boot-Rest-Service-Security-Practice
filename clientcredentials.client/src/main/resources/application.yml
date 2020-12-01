@@ -1,0 +1,11 @@
+server:
+  port:  0 # random port
+
+security: # declare this manually so that you can create ClientCredentialsResourceDetails object to fetch the access token
+  oauth2:
+    client:
+      - grantType: client_credentials # grant type of an OAuth 2.0 standard
+        clientId: photo-app-code-flow-client # client id of a client configured in a authorisation server
+        clientSecret: c4b6f729-e7a5-4e10-b052-e03f497243dd # client secret of a client configured in a authorisation server
+        accessTokenUri: http://localhost:8080/auth/realms/gauravAppsDeveloper/protocol/openid-connect/token # Url of a authorization server where a token could be fetched.
+        scope: openid, profile  # these are the scopes that you configure in the authorisation server; without these you do not allow the access;
